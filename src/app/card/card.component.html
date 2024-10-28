@@ -1,0 +1,13 @@
+<div class="app-cards-container">
+    <!--LOOPING  -->
+    <div class="app-card" *ngFor="let character of characters">
+        <img [src]="character?.image" alt="{{ character?.name }}" class="image">
+        <div class="character-info">
+            <p><b>Nome:</b> {{ character?.name }}</p>
+            <p><b>Status:</b> {{ character?.status }}</p>
+            <p><b>Espécie:</b> {{ character?.species }}</p>
+            <p><b>Gênero:</b> {{ character?.gender }}</p>
+            <p><b>Episódios:</b> {{ character?.episode?.length }}</p>
+        </div>
+    </div>
+</div>

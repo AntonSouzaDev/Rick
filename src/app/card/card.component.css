@@ -1,0 +1,41 @@
+.app-cards-container {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.app-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .character-info {
+    border: 1px solid #ccc;
+    border-top-style: dashed;
+    border-left:none;
+    border-right:none;
+    border-bottom: none;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+  }
